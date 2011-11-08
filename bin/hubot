@@ -24,9 +24,9 @@ Switches = [
 
 Options =
   path: "."
-  name: "Hubot"
+  name: "Paddy"
   create: false
-  adapter: "shell"
+  adapter: "turntable"
 
 Parser = new OptParse.OptionParser(Switches)
 Parser.banner = "Usage hubot [options]"

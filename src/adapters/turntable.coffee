@@ -27,7 +27,7 @@ class Turntable extends Robot.Adapter
       @client.roomRegister(@room)
     @client.on 'roomChanged', =>
       console.log "Changed into room"
-      @client.speak "Paddy in da hizz-ouse"
+      @client.speak "Hello everybody."
 
   read: (data)=>
     # ignore own messages
